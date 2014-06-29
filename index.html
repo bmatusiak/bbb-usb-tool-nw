@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Windows-8-like Animations with CSS3 and jQuery</title>
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/demo-styles.css" />
+        <script src="js/jquery-1.8.2.min.js"></script>
+        
+    </head>
+    
+    <body>
+        <header>
+            <a class="tutorial-link">UserName</a>
+        </header>
+        <div class="demo-wrapper">
+            <div class="s-page random-restored-page">
+                <h2 class="page-title">Some minimized App</h2>
+                <div class="close-button s-close-button">x</div>
+            </div>
+            <div class="s-page custom-page">
+                <h2 class="page-title">Thank You!</h2>
+                <div class="close-button s-close-button">x</div>
+            </div>
+            <div class="r-page random-r-page">
+                <div class="page-content">
+                    <h2 class="page-title">App Screen</h2>
+                    <p>some text</p>
+                </div>
+                <div class="close-button r-close-button">x</div>
+            </div>
+            <div class="dashboard clearfix">
+                <ul class="tiles">
+                    <div class="col1 clearfix">
+                        <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
+                            <div>
+                                <p>This tile's content slides up</p>
+                            </div>
+                            <div>
+                                <p>View all tasks</p>
+                            </div>
+                        </li>
+                        <li class="tile tile-small tile tile-2 slideTextRight" data-page-type="s-page"
+                        data-page-name="random-restored-page">
+                            <div>
+                                <p>Content slides left. Page closes from right</p>
+                            </div>
+                            <div>
+                                <p>Tile's content slides right. Page opens from left</p>
+                            </div>
+                        </li>
+                        <li class="tile tile-small last tile-3" data-page-type="r-page" data-page-name="random-r-page">
+                            <p class="icon-calendar-alt-fill"></p>
+                        </li>
+                        <li class="tile tile-big tile-4 fig-tile" data-page-type="r-page" data-page-name="random-r-page">
+                            <img src="images/blue.jpg" style="width:100%;height:100%;"/>
+                            <figure>
+                                <figcaption class="tile-caption caption-left">Slide-out Caption from left</figcaption>
+                            </figure>
+                        </li>
+                    </div>
+                    <div class="col2 clearfix">
+                        <li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
+                            <div>
+                                <p>
+                                    <span class="icon-cloudy"></span>Weather</p>
+                            </div>
+                        </li>
+                        <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page"
+                        data-page-name="random-r-page">
+                            <div>
+                                <p>
+                                    <span class="icon-skype"></span>Skype</p>
+                            </div>
+                            <div>
+                                <p>Make a Call</p>
+                            </div>
+                        </li>
+                        <li class="tile tile-big tile-6 slideTextUp" data-page-type="r-page"
+                        data-page-name="random-r-page">
+                            <div>
+                                <p>
+                                    <span class="icon-skype"></span>Skype</p>
+                            </div>
+                            <div>
+                                <p>Make a Call</p>
+                            </div>
+                        </li>
+                        <!-- 
+                        <li class="tile tile-small tile-7 rotate3d rotate3dX" data-page-type="r-page"
+                        data-page-name="random-r-page">
+                            <div class="faces">
+                                <div class="front">
+                                    <p>Launch Picassa</p>
+                                </div>
+                                <div class="back">
+                                    <p>Launch Picassa</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="tile tile-small last tile-8 rotate3d rotate3dY" data-page-type="r-page"
+                        data-page-name="random-r-page">
+                            <div class="faces">
+                                <div class="front">
+                                    <span class="icon-instagram"></span>
+                                </div>
+                                <div class="back">
+                                    <p>Launch Instagram</p>
+                                </div>
+                            </div>
+                        </li> -->
+                    </div>
+                    <div class="col3 clearfix">
+                        <li class="tile tile-big tile-10" data-page-type="s-page" data-page-name="custom-page">
+                            <div>
+                                <p>Windows-8-like Animations with CSS3 &amp; jQuery &copy; Sara Soueidan.
+                                    Licensed under MIT.</p>
+                            </div>
+                        </li>
+                        <li class="tile tile-big tile-10" data-page-type="s-page" data-page-name="custom-page">
+                            <div>
+                                <p>Windows-8-like Animations with CSS3 &amp; jQuery &copy; Sara Soueidan.
+                                    Licensed under MIT.</p>
+                            </div>
+                        </li>
+                        <li class="tile tile-big tile-10" data-page-type="s-page" data-page-name="custom-page">
+                            <div>
+                                <p>Windows-8-like Animations with CSS3 &amp; jQuery &copy; Sara Soueidan.
+                                    Licensed under MIT.</p>
+                            </div>
+                        </li>
+                    </div>
+                    
+                </ul>
+            </div>
+        </div>
+        
+        
+        <script src="js/scripts.js"></script>
+        
+        <script src="main.js"></script>
+    </body>
+
+</html>

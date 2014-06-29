@@ -1,0 +1,11 @@
+{
+  "name": "fake8",
+  "description": "fake8",
+  "version": "0.0",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "width": 1024,
+    "height": 768
+  }
+}
